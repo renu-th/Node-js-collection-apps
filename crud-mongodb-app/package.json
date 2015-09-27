@@ -1,0 +1,10 @@
+{
+  "name": "node-crud",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^2.5.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.1.8"
+  }
+}

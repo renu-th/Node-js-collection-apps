@@ -1,0 +1,11 @@
+form( method="post", action="/posts" )
+    div
+        div
+            span Title :
+            input( name="title", rows=2, id="editArticleTitle")
+        div
+            span Body :
+            textarea( name="body", rows=10, id="editArticleBody")
+        div 
+        div#editArticleSubmit
+            input( type="submit", value="Send")
