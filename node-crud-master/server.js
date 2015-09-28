@@ -1,4 +1,4 @@
-// for node-ninja
+// for node-app
 
 /**
  * Module dependencies.
@@ -30,7 +30,6 @@ app.configure('production', function(){
 
 // Model
 
-var ObjectId = mongodb.BSONPure.ObjectID;
 var Schema = mongoose.Schema;
 
 var Memo = new Schema({

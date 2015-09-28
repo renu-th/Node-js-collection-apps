@@ -5,6 +5,7 @@
 var express = require('express')
   , mongoose = require('mongoose')
   , mongodb = require('mongodb')
+  ,ObjectId = require('mongodb/lib/mongodb/bson/bson').ObjectID
 
 var app = module.exports = express.createServer();
 
@@ -29,7 +30,6 @@ app.configure('production', function(){
 
 // Model
 
-var ObjectId = mongodb.BSONPure.ObjectID;
 var Schema = mongoose.Schema;
 
 var Memo = new Schema({
